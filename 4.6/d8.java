@@ -16,7 +16,7 @@ public class d8 {
             }
         }
         str2 = str2.toLowerCase().substring(count2 + 1, str2.length());
-        for (int i = 0; i<str1.length(); i++) {
+        for (int i = 0; i<str2.length(); i++) {
             if (str2.charAt(i) == 'a' || str2.charAt(i) == 'e' || str2.charAt(i) == 'i' || str2.charAt(i) == 'o' || str2.charAt(i) == 'u') {
                 s2 += str2.charAt(i);
             }
@@ -24,6 +24,6 @@ public class d8 {
         return s1.equals(s2);
     }
     public static void main(String[] args) {
-        System.out.println(doesRhyme("Sam I aym!", "Green eggs and hame."));
+        System.out.println(doesRhyme("Sam I aem!", "Green eggs and hame."));
     }
 }
